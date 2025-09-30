@@ -1,0 +1,38 @@
+:root {
+    --square-size: 50px;
+    --light: #eeeed2;
+    --dark: #769656; 
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+}
+
+html {
+    background: #69923E;
+    /* Use Flexbox to center the content */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    min-height: 10vh;       /* Make body at least the height of the screen */
+    margin: 0;               /* Remove default body margin */
+    background-image:
+        linear-gradient(45deg, var(--dark) 25%, transparent 25%),
+        linear-gradient(-45deg, var(--dark) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, var(--dark) 75%),
+        linear-gradient(-45deg, transparent 75%, var(--dark) 75%);
+    background-size: var(--square-size) var(--square-size);    
+    background-color: var(--light);
+}
+
+.textbox {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #89b857;
+    white-space: pre-line;
+}
