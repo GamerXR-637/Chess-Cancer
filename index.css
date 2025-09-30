@@ -12,13 +12,11 @@ body {
 }
 
 html {
-    background: #69923E;
-    /* Use Flexbox to center the content */
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    min-height: 10vh;       /* Make body at least the height of the screen */
-    margin: 0;               /* Remove default body margin */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
     background-image:
         linear-gradient(45deg, var(--dark) 25%, transparent 25%),
         linear-gradient(-45deg, var(--dark) 25%, transparent 25%),
