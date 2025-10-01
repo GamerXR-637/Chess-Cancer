@@ -5,7 +5,8 @@ const FOLDER_PATHS = [
     "glass",
     "neo",
     "newspaper",
-    "wood"
+    "wood",
+    "icy"
 ];
 
 const FILE_NAMES = ["bk.png", "bn.png", "bp.png", "bq.png", "br.png", "wk.png", "wn.png", "wp.png", "wq.png", "wr.png"];
