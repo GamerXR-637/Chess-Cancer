@@ -111,7 +111,7 @@ html {
 .piece-6 {
     right: 20%;
     bottom: 20%;
-    transform: rotate(-15deg);
+    transform: rotate(-17deg);
     width: 65px;
     position: absolute;
 }
@@ -130,4 +130,5 @@ html {
     color: #0e69df;
     text-decoration: underline;
     align-items: center;
+
 }
